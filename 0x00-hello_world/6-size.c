@@ -8,7 +8,6 @@
 int main(void)
 {
 /*print size of data types*/
-  
 printf("Size of a char: %d byte(s)\n", (int)sizeof(char));
 printf("Size of an int: %d byte(s)\n", (int)sizeof(int));
 printf("Size of a long int: %d byte(s)\n", (int)sizeof(long));
