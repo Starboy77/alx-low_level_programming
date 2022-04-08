@@ -19,7 +19,7 @@ num++;
 else
 {
 putchar((num) + '0');
-n++;
+num++;
 }
 
 }
