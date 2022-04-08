@@ -11,10 +11,12 @@ while (alpha <= 'z')
 {
 if (alpha == 'e')
 {
+alpha++;
 continue;
 }
 if (alpha == 'q')
 {
+alpha++;
 continue;
 }
 putchar(alpha);
