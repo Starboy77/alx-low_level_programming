@@ -8,7 +8,7 @@ int main(void)
 {
 int num = 0;
 char alpha = 'a';
-while ( num < 10)
+while (num < 10)
 {
 putchar((num) + '0');
 num++;
