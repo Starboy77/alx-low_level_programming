@@ -13,6 +13,10 @@ int main(void)
 printput();
 return (0);
 }
+/**
+ * printput - check the code
+ *.
+ */
 void printput(void)
 {
 _putchar('_');
