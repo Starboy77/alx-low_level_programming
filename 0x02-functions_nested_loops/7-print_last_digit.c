@@ -8,7 +8,7 @@ int print_last_digit(int c)
 {
 if (c < 0)
 {
-unsigned int abs = (unsigned int)c;
+unsigned int abs = -(unsigned int)c;
 unsigned int n = abs % 10;
 _putchar((n) + '0');
 return (n);
