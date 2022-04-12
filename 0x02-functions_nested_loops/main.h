@@ -41,4 +41,10 @@ int _isalpha(int c);
  * Return: 1 if true, -1 if false
  */
 int print_sign(int n);
+/**
+ * _abs - prints the absolute value
+ * @ int: parameter
+ * Return: the abs parameter
+ */
+int _abs(int);
 #endif
