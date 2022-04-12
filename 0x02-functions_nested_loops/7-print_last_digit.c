@@ -6,10 +6,10 @@
  */
 int print_last_digit(int c)
 {
-if ((c != 0) && (c < 0))
+if (c < 0)
 {
-int abs = c * -1;
-int n = abs % 10;
+unsigned int abs = (unsigned int)c;
+unsigned int n = abs % 10;
 _putchar((n) + '0');
 return (n);
 }
