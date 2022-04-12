@@ -29,4 +29,10 @@ void print_alphabet_x10(void);
  * Return: 1 if true, otherwise 0.
  */
 int _islower(int c);
+/**
+ * _isalpha - function to check alphabetic character.
+ * @c: character parameter.
+ * Return: 1 if true, otherwise 0.
+ */
+int _isalpha(int c);
 #endif
