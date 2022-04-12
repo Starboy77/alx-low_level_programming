@@ -35,4 +35,10 @@ int _islower(int c);
  * Return: 1 if true, otherwise 0.
  */
 int _isalpha(int c);
+/**
+ * print_sign - function that checks sign
+ * @n: character parameter
+ * Return: 1 if true, -1 if false
+ */
+int print_sign(int n);
 #endif
