@@ -17,4 +17,10 @@ void printput(void);
  * That's it.
  */
 void print_alphabet(void);
+/**
+ * print_alphabet_x10 - print a single character.
+ *
+ * That's it.
+ */
+void print_alphabet_x10(void);
 #endif
