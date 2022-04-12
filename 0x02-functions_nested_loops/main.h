@@ -47,4 +47,10 @@ int print_sign(int n);
  * Return: the abs parameter
  */
 int _abs(int);
+/**
+ * print_last_digit - output last digit
+ * @ int: parameter
+ * Return: last digit
+ */
+int print_last_digit(int);
 #endif
