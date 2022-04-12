@@ -27,4 +27,19 @@ _putchar('a');
 _putchar('r');
 _putchar('\n');
 }
+/**
+ * print_alphabet - print a single character.
+ *
+ * That's it.
+ */
+void print_alphabet(void)
+{
+char alpha = 'a';
+while (alpha <= 'z')
+{
+_putchar(alpha);
+alpha++;
+}
+_putchar('\n');
+}
 #endif
