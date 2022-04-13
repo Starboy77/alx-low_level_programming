@@ -63,4 +63,11 @@ void jack_bauer(void);
  *
  */
 void times_table(void);
+/**
+ * add - add number
+ * @ int: params
+ * @ int: params
+ * Return: 0
+ */
+int add(int, int);
 #endif
