@@ -70,4 +70,10 @@ void times_table(void);
  * Return: 0
  */
 int add(int, int);
+/**
+ * print_to_ 98 - print to 98
+ * @n: parameter int
+ * Return: 0
+ */
+void print_to_98(int n);
 #endif
