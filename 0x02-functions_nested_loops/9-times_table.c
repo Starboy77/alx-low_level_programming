@@ -25,6 +25,25 @@ if (j < 9)
 {
 _putchar(',');
 _putchar(' ');
+}
+if ((i < 2) && (j < 9))
+{
+_putchar(' ');
+}
+if ((i == 2) && (j < 4))
+{
+_putchar(' ');
+}
+if ((i == 3) && (j < 3))
+{
+_putchar(' ');
+}
+if ((i == 4) && (j < 2 ))
+{
+_putchar(' ');
+}
+if ((i > 4) && (j < 1))
+{
 _putchar(' ');
 }
 }
