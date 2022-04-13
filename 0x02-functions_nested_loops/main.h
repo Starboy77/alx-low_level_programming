@@ -76,4 +76,10 @@ int add(int, int);
  * Return: 0
  */
 void print_to_98(int n);
+/**
+ * print_times_table - prints times table
+ * @n : times table to use
+ * Return:void
+ */
+void print_times_table(int n);
 #endif
