@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 /**
- * positive_or_negative - function description
+ * positive_or_negative - function description hhyhnn hhtf
  *@i: parameter
  */
 void positive_or_negative(int i);
