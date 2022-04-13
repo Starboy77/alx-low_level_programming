@@ -14,11 +14,11 @@ for (j = 0; j < 10; j++)
 zero = i * j;
 if (j == 0)
 {
-_putchar((zero) +'0'));
+_putchar((zero) +'0');
 }
 else if (zero < 10)
 {
-_putchar(' ')
+_putchar(' ');
 _putchar((zero) +'0');
 }
 if (zero >= 10)
@@ -32,5 +32,6 @@ _putchar(',');
 _putchar(' ');
 }
 }
+_putchar('\n');
 }
 }
