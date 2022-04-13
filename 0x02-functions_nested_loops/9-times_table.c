@@ -9,9 +9,9 @@ int i, j;
 int zero = 0;
 for (i = 0; i < 10; i++)
 {
-for (j = 0; j < 10; j++;)
+for (j = 0; j < 10; j++)
 {
-zero = i * j
+zero = i * j;
 _putchar((zero / 10) + '0');
 _putchar((zero % 10) + '0');
 if (j < 9)
