@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _puts - output to stdout
  * @str: parameter
  */
