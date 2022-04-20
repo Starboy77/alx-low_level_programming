@@ -12,9 +12,11 @@ count++;
 s++;
 }
 len = count - 1;
-for (i = len; i >= 0; i--)
+i = len;
+while (i >= 0)
 {
 _putchar(s[i]);
+i--;
 }
 _putchar('\n');
 }
