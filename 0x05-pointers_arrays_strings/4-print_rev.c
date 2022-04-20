@@ -10,7 +10,8 @@ while ( *s != '\0')
 {count++;
 s++;
 }
-for (i = (count - 1); i >= 0; i--)
+int len = count - 1;
+for (i = len; i >= 0; i--)
 {
 _putchar(*(s + i));
 }
