@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strlen - check the code
  * @s: pointer parameter.
@@ -7,6 +6,11 @@
  */
 int _strlen(char *s)
 {
-	int length = sizeof(*s) - 1;
-	return(length);
+int count = 0;
+while (*s != '\0')
+{
+count++;
+s++;
+}
+return (count);
 }
