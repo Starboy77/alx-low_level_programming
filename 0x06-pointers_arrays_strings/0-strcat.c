@@ -25,3 +25,4 @@ char *_strcat(char *dest, char *src)
 	dest[len + k + 1] = '\0';
 	return (dest);
 }
+
