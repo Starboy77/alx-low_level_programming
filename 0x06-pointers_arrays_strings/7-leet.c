@@ -9,8 +9,8 @@
 char *leet(char *s)
 {
 int i = 0, j;
-char str[6] = {'a','e','o','t','l'};
-char num[5] = {'4','3','0','7','1'};
+char str[6] = {'a', 'e', 'o', 't', 'l'};
+char num[5] = {'4', '3', '0', '7', '1'};
 while (s[i] != '\0')
 {
 for (j = 0; j < 5; j++)
