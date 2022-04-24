@@ -16,13 +16,13 @@ while (n != 0)
 k = n % 10;
 n = n / 10;
 res = (res * 10) + k;
-i++
+i++;
 }
 while (res != 0)
 {
 l = res % 10;
 res = res / 10;
 _putchar(l + '0');
-j++
+j++;
 }
-}  
+}
