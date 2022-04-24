@@ -10,6 +10,11 @@ int i = 0, res = 0, k, j, l = 0;
 if (n < 0)
 {
 _putchar('-');
+n = n * -1;
+}
+if (n == 0)
+{
+_putchar(n + '0');
 }
 while (n != 0)
 {
