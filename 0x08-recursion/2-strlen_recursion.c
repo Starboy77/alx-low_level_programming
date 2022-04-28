@@ -9,16 +9,15 @@
 
 int len(char *d, int n)
 {
-  if (*d != '\0')
+  if (*d == '\0')
     {
+      return (0);
+    }
       d++;
       n++;
       len(d, n);
-    }
-  else
-    {
   return (n);
-    }
+ 
 }
 
 
