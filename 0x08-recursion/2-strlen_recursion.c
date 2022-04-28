@@ -9,7 +9,7 @@
 
 int len(char *d, int n)
 {
-  if (*s != 0)
+  if (*d != 0)
     {
       len(d + 1, n + 1);
     }
