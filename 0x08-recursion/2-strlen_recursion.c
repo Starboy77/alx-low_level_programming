@@ -13,8 +13,8 @@ int len(char *d, int n)
     {
       return (0);
     }
-      d++;
-      n++;
+      d ++;
+      n ++;
       len(d, n);
   return (n);
  
