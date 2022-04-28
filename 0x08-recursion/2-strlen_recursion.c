@@ -1,6 +1,23 @@
 #include "main.h"
 
 /**
+ * len - lengh of string
+ * @d: string parameter
+ * @n: int params
+ * Return: int
+ */
+
+int len(char *d, int n)
+{
+  if (*s != 0)
+    {
+      len(d + 1, n + 1);
+    }
+  return (n);
+}
+
+
+/**
  * _strlen_recursion - lengh of string
  * @s: string parameter
  * Return: int
@@ -8,11 +25,6 @@
 
 int _strlen_recursion(char *s)
 {
-  int i = 0;
-  if (*(s + i) != 0)
-    {
-      i++;
-      _strlen_recursion(s + i);
-    }
-  return (i);
+  int leng = len(s, 0);
+  return (leng);
 }
