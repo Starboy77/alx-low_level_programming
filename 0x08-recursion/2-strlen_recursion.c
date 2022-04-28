@@ -11,7 +11,9 @@ int len(char *d, int n)
 {
   if (*d != 0)
     {
-      len(d + 1, n + 1);
+      d++;
+      n++;
+      len(d, n);
     }
   return (n);
 }
