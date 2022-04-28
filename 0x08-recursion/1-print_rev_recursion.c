@@ -1,11 +1,6 @@
 #include "main.h"
 
-/**
- * _print_rev_recursion - print string in reverse
- * @s: string parameter
- */
-
-char *len(char *d)
+int len(char *d, int n)
 {
   if (*d != 0)
     {
@@ -18,17 +13,20 @@ char *len(char *d)
 }
 
 
+
+/**
+ * _print_rev_recursion - print string in reverse
+ * @s: string parameter
+ */
+
 void _print_rev_recursion(char *s)
 {
-  const char *start = &s[0];
+
   len(s);
   if (s >= start)
     {
   _putchar(*s);
   _print_rev_recursion(s - 1);
     }
-  else
-    {
-      return;
-    }
+
 }
