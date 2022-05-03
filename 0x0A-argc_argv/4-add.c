@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * maij - main function
+ * main - main function
  * @argc: argument count
  * @argv: argument list
  * Return: 0
@@ -13,7 +13,7 @@
 int main(int argc, char **argv)
 {
 	int i;
-	long unsigned int j, sum = 0;
+	unsigned long int j, sum = 0;
 	char *ptr;
 
 	if (argc == 1)
