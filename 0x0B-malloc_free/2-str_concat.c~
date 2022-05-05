@@ -1,0 +1,29 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * str_concat - concatenates strings
+ * @s1: string parameter
+ * @s2: string parameter
+ * Return: string
+ */
+
+char *str_concat(char *s1, char *s2)
+{
+	int i, j, len;
+
+	char *cat;
+
+	i = 0;
+	while (s1[i] != '\0')
+	{
+		i++;
+	}
+
+	j = 0;
+	while (s2[j] != '\0')
+	{
+		j++;
+	}
+	len = i + j + 1;
+}
