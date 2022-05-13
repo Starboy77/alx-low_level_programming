@@ -9,7 +9,7 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	f  = malloc(sizeof(*f));
+	if (f == NULL)
+		return;
 	(*f)(name);
-	free(f);
 }
