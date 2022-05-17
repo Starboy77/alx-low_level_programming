@@ -5,7 +5,7 @@
 
 /**
  * print_numbers - prints out numbers
- * @s: seperator pointer
+ * @separator: seperator pointer
  * @n: unsigned int parameter
  */
 
