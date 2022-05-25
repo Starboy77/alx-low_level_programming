@@ -1,6 +1,9 @@
 #ifndef LISTS
 #define LISTS
 
+/**
+ * size_t - unsigned long type
+ */
 typedef unsigned long int size_t;
 
 
