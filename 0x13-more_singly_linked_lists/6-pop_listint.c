@@ -1,6 +1,11 @@
 #include "lists.h"
 #include <stdlib.h>
 
+/**
+ * pop_listint - removes head node
+ * @head: pointer to struct pointer
+ * Return: data
+ */
 
 int pop_listint(listint_t **head)
 {
