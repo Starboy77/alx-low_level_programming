@@ -1,6 +1,14 @@
 #include "lists.h"
 #include <stdlib.h>
 
+
+/**
+ * delete_nodeint_at_index - delete node ata index
+ * @head: node pointer
+ * @index: index
+ * Return: 1
+ */
+
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *tmp, *copy = *head;
