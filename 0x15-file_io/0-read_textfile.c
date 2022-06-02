@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+
+/**
+ * read_textfile - reads file to stdout
+ * @filename: filename
+ * @letters: count
+ * Return: no of bytes read
+ */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *s;
@@ -18,9 +25,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (n < 0)
 		return (0);
 	w = write(STDOUT_FILENO, s, n);
-	if (w <= 0)
+	if (w < 0)
 		return (0);
 	free(s);
 	close(fd);
-	return (w);
+	return (n);
 }
