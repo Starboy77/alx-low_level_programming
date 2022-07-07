@@ -1,5 +1,13 @@
 #include "lists.h"
 
+/**
+ * insert_dnodeint_at_index - insert at index
+ * @h: head node
+ * @idx: index
+ * @n: node data
+ * Return: new node
+ */
+
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	unsigned int i = 0, j = 0;
@@ -9,7 +17,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	if (!new)
 		return (NULL);
 	new->n = n;
-	if (idx == 0 && *h)
+	if (idx == 0)
 	{
 		new->next = *h;
 		new->prev = NULL;
@@ -30,7 +38,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		head = head->next;
 		j++;
 	}
-	if (idx >= j || *h == NULL)
+	if (idx >= j || head == NULL)
 		return (NULL);
 	for (i = 0; (i < (idx - 1)) && headd; i++)
 	{
