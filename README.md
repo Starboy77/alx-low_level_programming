@@ -1,1 +1,1 @@
-My alx-low_level_programming practice repo
+My ALX low level programming directory
