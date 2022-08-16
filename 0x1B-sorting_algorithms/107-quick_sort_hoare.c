@@ -1,8 +1,3 @@
-/*
- * File: 107-quick_sort_hoare.c
- * Auth: Brennan D Baraban
- */
-
 #include "sort.h"
 
 void swap_ints(int *a, int *b);
